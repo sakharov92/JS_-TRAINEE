@@ -1,0 +1,49 @@
+body {
+    margin: 0 auto;
+}
+
+div.list {
+    margin: 0 auto;
+    width: 300px;
+}
+
+input.inp {
+    margin: 50px auto;
+    width: 300px;
+    height: 30px;
+    display: flex;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+    border: 1px solid black;
+}
+
+.hover {
+    cursor: pointer;
+}
+
+.block {
+    width: 300px;
+    height: 30px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-top: 0px;
+    margin: 0 auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.span {
+    width: 245px;
+    text-align: left;
+}
+
+.remove {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}

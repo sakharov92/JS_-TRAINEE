@@ -1,0 +1,33 @@
+body {
+    margin: 0 auto;
+}
+p {
+    box-sizing: border-box;
+    margin: 3px 15px;
+    height: 0;
+    overflow: hidden;
+    text-align: justify;
+    transition-duration: 0.3s;
+}
+.navigation {
+    margin: 0 auto;
+    max-width: 600px;
+    min-width: 400px;
+    box-sizing: border-box;
+}
+.btn {
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 5px;
+    background-color: rgb(245, 244, 244);
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 3px 0px;
+}
+.btn:hover {
+    cursor: pointer;
+    border-color: rgb(127, 127, 236);
+}
+.btn.chosed {
+    background-color: rgb(127, 127, 236);
+    color: white;
+}

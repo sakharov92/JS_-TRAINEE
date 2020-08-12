@@ -1,0 +1,38 @@
+body {
+    margin: 0 auto;
+}
+
+.game {
+    border: 1px solid black;
+    width: 302px;
+    height: 302px;
+    font-size: 0px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.cell {
+    font-size: 50px;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+    padding: 20px;
+}
+.cell:hover{
+    background-color: lavender;
+    cursor: pointer;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 0 auto;
+    display: flex;
+}

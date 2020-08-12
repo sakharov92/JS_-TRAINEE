@@ -1,0 +1,25 @@
+body {
+    margin: 0 auto;
+}
+
+table {
+    margin: 50px auto;
+    padding: 0px;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 3px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(214, 214, 214);
+}
+
+th:hover {
+    cursor: pointer;
+    background-color: rgb(230, 230, 230);
+    ;
+}

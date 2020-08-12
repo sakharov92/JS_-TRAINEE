@@ -1,0 +1,53 @@
+body {
+    margin: 0 auto;
+}
+
+.block {
+    margin: 0 auto;
+    padding: 15px;
+    border: 2px solid green;
+    min-width: 400px;
+    max-width: 600px;
+    height: fit-content;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.navigation {
+    overflow: hidden;
+
+    box-sizing: border-box;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    box-sizing: border-box;
+    display: inline-flex;
+    width: 100%;
+    margin: 0 2px;
+    background-color: rgb(247, 245, 235);
+    padding: 5px 20px 5px 20px;
+    justify-content: center;
+    border-radius: 5px 5px 0 0;
+    font-weight: bold;
+}
+
+p {
+    display: none;
+    text-align: justify;
+}
+
+p.chosed {
+    display: block;
+}
+
+.btn.chosed {
+    background-color: green;
+    color: white;
+}
+
+.btn:hover {
+    cursor: pointer;
+}

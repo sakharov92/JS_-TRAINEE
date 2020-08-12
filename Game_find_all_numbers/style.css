@@ -1,0 +1,44 @@
+body {
+    margin: 0 auto;
+}
+
+div.startPage {
+    margin: 0 auto;
+    width: 600px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.item {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin: 5px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.item:hover {
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+.game {
+    box-sizing: border-box;
+    display: none;
+    margin-top: 20px;
+    margin: 0 auto;
+    width: 330px;
+    text-align: center;
+}
+
+.gameArea {
+    width: 400x;
+    height: 300px;
+    border: 1px solid black;
+    padding: 5px;
+}

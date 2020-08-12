@@ -1,0 +1,94 @@
+body {
+    margin: 0 auto;
+}
+
+div.calendar {
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 1px solid black;
+    width: 250px;
+    height: fit-content;
+    box-sizing: border-box;
+}
+
+div.navigation {
+    height: 20px;
+    display: flex;
+    padding: 2px;
+    justify-content: space-between;
+}
+
+.arrows {
+    display: flex;
+    justify-content: space-between;
+    width: 35px;
+}
+
+.left:hover, .right:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+div.days {
+    height: 20px;
+    background-color: lightgrey;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+    padding: 1px 8px;
+}
+
+.days p {
+    margin: 0;
+}
+
+.currentYear {
+    margin: 0;
+}
+
+.realDay, .freeDay {
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    margin-left: 11px;
+    margin-right: 4px;
+    margin-top: 3;
+    margin-bottom: 3px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    padding-top: 2px;
+}
+
+.realDay:hover {
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
+
+.note {
+    width: 200px;
+    min-height: 20px;
+    height: fit-content;
+    border: 1px solid black;
+    position: absolute;
+    background-color: white;
+    display: block;
+}
+
+.addNote {
+    width: 200px;
+    box-sizing: border-box;
+}
+
+ol {
+    display: none;
+    box-sizing: border-box;
+    text-align: left;
+    margin: 0;
+    padding-left: 25px;
+}
+
